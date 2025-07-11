@@ -81,3 +81,86 @@ nav li a{
 .focus-primary:hover {
   background-color: #3730e4;
 }
+
+/* div */
+.banner-content{
+    text-align: center;
+    margin-top: 10%;
+
+     font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-font{
+  font-size: 65px;
+  font-weight: bold;
+}
+
+/* main */
+
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.text-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2d2e32;
+  margin-bottom: 15px;
+}
+
+.text-content p {
+  font-size: 16px;
+  color: #6b6b6b;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.preview-btn {
+  background-color: #4a45f5;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.preview-btn:hover {
+  background-color: #3730e4;
+}
+
+.image-content {
+  flex: 1;
+  text-align: right;
+}
+
+.image-content img {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
