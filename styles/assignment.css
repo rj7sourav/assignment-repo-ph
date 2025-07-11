@@ -14,6 +14,10 @@
 }
 
 /* h3 */
+.ff{
+  font-family: "Raleway", sans-serif;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -24,7 +28,6 @@ nav{
 }
 
 .inter-font{
-  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
@@ -44,7 +47,6 @@ nav li a{
 }
 
 .btn-primary{
-  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
@@ -304,6 +306,9 @@ stats-container {
 
 /* img2 */
 
+.fon{
+    font-family: "Inter", sans-serif;
+}
 .webimg{
   margin: 0;
   background-color: #FFFFFF;
@@ -346,7 +351,6 @@ h1 {
   color: white;
   text-decoration: none;
   border-radius: 10px;
-  font-weight: bold;
   transition: background-color 0.3s ease;
 }
 
